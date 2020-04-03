@@ -18,6 +18,16 @@ class EditLocationViewController: UIViewController, UIImagePickerControllerDeleg
     
     weak var delegate : EditLocationDelegate?
     
+    //计时器
+    lazy var timer : Timer = {
+        return Timer()
+    }()
+    
+    //计时器板
+    var timeLabel : UILabel!
+    
+    //录音时长
+    var audioTime : NSInteger = 0
     //录音素材路径
     var audioPathStr = String()
     //录音设置
@@ -183,6 +193,11 @@ class EditLocationViewController: UIViewController, UIImagePickerControllerDeleg
         labelB.textColor = UIColor.init(white: 1, alpha: 1)
         labelB.textAlignment = NSTextAlignment.center
         
+        self.timeLabel = UILabel(frame: CGRect(x: 0, y: 0, width: self.audioView.frame.size.width/5, height: self.audioView.frame.size.width/5))
+        self.timeLabel.textAlignment = .center
+        self.timeLabel.text = "\(self.audioTime)"
+        self.timeLabel.textColor = UIColor.white
+        
         self.audioView.addSubview(labelT)
         self.audioView.addSubview(labelB)
         self.view.addSubview(self.audioView)
@@ -190,6 +205,9 @@ class EditLocationViewController: UIViewController, UIImagePickerControllerDeleg
         //初始化录音存储路径
         let path : NSString = NSSearchPathForDirectoriesInDomains(.cachesDirectory, .userDomainMask, true).last! as NSString
         let fullP : String = path.appendingPathComponent("audio\(self.count).caf")
+        
+        self.audioDict.updateValue("audio\(self.count)", forKey: fullP)
+        
         let url = URL.init(string: fullP)
         do {
             let audioRecorder : AVAudioRecorder = try AVAudioRecorder(url: url!, settings: self.audioSetting as! [String : Any])
@@ -211,6 +229,11 @@ class EditLocationViewController: UIViewController, UIImagePickerControllerDeleg
             if(self.audioRecorder.prepareToRecord() == true){
                 //开始录音
                 self.audioRecorder.record()
+                self.timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { (Timer) in
+                    self.audioTime += 1
+                    self.timeLabel.text = "\(self.audioTime)"
+                }
+                
             }
         }
         
@@ -218,7 +241,22 @@ class EditLocationViewController: UIViewController, UIImagePickerControllerDeleg
     
     @objc func audioRecorderBtnTouchUp(btn : UIButton){
         
+        self.audioRecorder.stop()
+    
         self.audioView.removeFromSuperview()
+        
+        self.timer.invalidate()
+        
+        //如果录音时间小于三秒，不进行保存
+        if(self.audioTime < 3){
+            //删除录音
+            self.audioRecorder.deleteRecording()
+            self.count -= 1
+        }
+        
+        self.audioTime = 0
+        self.timeLabel.text = "0"
+        
     }
     
 //    override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
