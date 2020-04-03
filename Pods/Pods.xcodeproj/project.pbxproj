@@ -3,58 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		2A98134A70001D88F2E8B45132A3E45D /* BaiduMapKit */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 5577AA72BAC6F7DE95AF6FF653D2388C /* Build configuration list for PBXAggregateTarget "BaiduMapKit" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = BaiduMapKit;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		EFBE7A5DDCE33892F8B8886F10C2645D /* Pods-轨迹生活-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CFEB9C63196DB2DB7B0C91B5CACDE0 /* Pods-轨迹生活-dummy.m */; };
+		AF3543170B8DDB46CA31F49C27931291 /* Pods-轨迹生活-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1533D34456E06E414DC3E8D14C70579 /* Pods-轨迹生活-dummy.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		C0467A195E29AFAEDFFE7CDE47CF7C03 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2A98134A70001D88F2E8B45132A3E45D;
-			remoteInfo = BaiduMapKit;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		1D021D71040E7DB1608C534DCBCFE161 /* Pods-轨迹生活-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-轨迹生活-acknowledgements.plist"; sourceTree = "<group>"; };
-		4B6CCCC1439995BC651C04416D2AF438 /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Base.framework; path = BaiduMapKit/BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
-		63A20861BF94D026E7533DFCF72B255E /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = BaiduMapKit/thirdlibs/libssl.a; sourceTree = "<group>"; };
-		67CFEB9C63196DB2DB7B0C91B5CACDE0 /* Pods-轨迹生活-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-轨迹生活-dummy.m"; sourceTree = "<group>"; };
-		93519C90D7CB48E5ADE084750754E311 /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Map.framework; path = BaiduMapKit/BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
+		0C3729599CCD5E5E6CF468987B9BB9BC /* Pods-轨迹生活-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-轨迹生活-acknowledgements.plist"; sourceTree = "<group>"; };
+		33468BE4B71B052B4C902ED30C0417EC /* Pods-轨迹生活.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-轨迹生活.release.xcconfig"; sourceTree = "<group>"; };
+		4DA8FC4F2E14A87C4B6C02002D677165 /* Pods-轨迹生活.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-轨迹生活.debug.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AB0E20FD78E62298301E3DD48B4FFB4F /* Pods-轨迹生活-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-轨迹生活-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AE82A83C295C4AE0CA12219008E201D2 /* libPods-轨迹生活.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-轨迹生活.a"; path = "libPods-轨迹生活.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7778124600853B8271F8643937901F5 /* BaiduMapAPI_Cloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Cloud.framework; path = BaiduMapKit/BaiduMapAPI_Cloud.framework; sourceTree = "<group>"; };
-		BF97CFF3AE07C24BEFB06BD73D2D5A5F /* Pods-轨迹生活.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-轨迹生活.debug.xcconfig"; sourceTree = "<group>"; };
-		C933C71B9A303BED79C07FA9BAE37875 /* mapapi.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = mapapi.bundle; path = BaiduMapKit/BaiduMapAPI_Map.framework/mapapi.bundle; sourceTree = "<group>"; };
-		D1E376F1617DE59F2194BC3DB3842F77 /* Pods-轨迹生活-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-轨迹生活-resources.sh"; sourceTree = "<group>"; };
-		D7ED5C57941EA6B365E2A759FDC95CF3 /* Pods-轨迹生活.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-轨迹生活.release.xcconfig"; sourceTree = "<group>"; };
-		DE67BAC5DE9F4E6E669234E8A98336D9 /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Search.framework; path = BaiduMapKit/BaiduMapAPI_Search.framework; sourceTree = "<group>"; };
-		E50236E9A5434CF5DD81E03E40D77A2B /* BaiduMapKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BaiduMapKit.release.xcconfig; sourceTree = "<group>"; };
-		EBA41E386D78C3431D8577ACA964FE1D /* BaiduMapKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BaiduMapKit.debug.xcconfig; sourceTree = "<group>"; };
-		F82AF04CDD19A62F18FC3425D4CAF846 /* BaiduMapAPI_Utils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Utils.framework; path = BaiduMapKit/BaiduMapAPI_Utils.framework; sourceTree = "<group>"; };
-		F95192FB19C1894ED5C645758149F4B7 /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = BaiduMapKit/thirdlibs/libcrypto.a; sourceTree = "<group>"; };
+		B1533D34456E06E414DC3E8D14C70579 /* Pods-轨迹生活-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-轨迹生活-dummy.m"; sourceTree = "<group>"; };
+		F96CA715122223247ED27FBC39DD13A5 /* Pods-轨迹生活-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-轨迹生活-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2649956CC5821EBB414F23FF98C24A8D /* Frameworks */ = {
+		9762FDA1E553936B1E0647088CAAE7D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -64,40 +31,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A2A88450A4FA00375389A7619D56082 /* Pods-轨迹生活 */ = {
+		22872DEDACA0E29A6E3E2740AEB6AB68 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AB0E20FD78E62298301E3DD48B4FFB4F /* Pods-轨迹生活-acknowledgements.markdown */,
-				1D021D71040E7DB1608C534DCBCFE161 /* Pods-轨迹生活-acknowledgements.plist */,
-				67CFEB9C63196DB2DB7B0C91B5CACDE0 /* Pods-轨迹生活-dummy.m */,
-				D1E376F1617DE59F2194BC3DB3842F77 /* Pods-轨迹生活-resources.sh */,
-				BF97CFF3AE07C24BEFB06BD73D2D5A5F /* Pods-轨迹生活.debug.xcconfig */,
-				D7ED5C57941EA6B365E2A759FDC95CF3 /* Pods-轨迹生活.release.xcconfig */,
-			);
-			name = "Pods-轨迹生活";
-			path = "Target Support Files/Pods-轨迹生活";
-			sourceTree = "<group>";
-		};
-		4909391FDDF8DD2ADFC8133E2D4A54A6 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0A2A88450A4FA00375389A7619D56082 /* Pods-轨迹生活 */,
+				56995B918DAA5B933ED5E28D50C41814 /* Pods-轨迹生活 */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		4A6F71FC05157FF023D51BA50DFF2954 /* Frameworks */ = {
+		56995B918DAA5B933ED5E28D50C41814 /* Pods-轨迹生活 */ = {
 			isa = PBXGroup;
 			children = (
-				4B6CCCC1439995BC651C04416D2AF438 /* BaiduMapAPI_Base.framework */,
-				B7778124600853B8271F8643937901F5 /* BaiduMapAPI_Cloud.framework */,
-				93519C90D7CB48E5ADE084750754E311 /* BaiduMapAPI_Map.framework */,
-				DE67BAC5DE9F4E6E669234E8A98336D9 /* BaiduMapAPI_Search.framework */,
-				F82AF04CDD19A62F18FC3425D4CAF846 /* BaiduMapAPI_Utils.framework */,
-				F95192FB19C1894ED5C645758149F4B7 /* libcrypto.a */,
-				63A20861BF94D026E7533DFCF72B255E /* libssl.a */,
+				F96CA715122223247ED27FBC39DD13A5 /* Pods-轨迹生活-acknowledgements.markdown */,
+				0C3729599CCD5E5E6CF468987B9BB9BC /* Pods-轨迹生活-acknowledgements.plist */,
+				B1533D34456E06E414DC3E8D14C70579 /* Pods-轨迹生活-dummy.m */,
+				4DA8FC4F2E14A87C4B6C02002D677165 /* Pods-轨迹生活.debug.xcconfig */,
+				33468BE4B71B052B4C902ED30C0417EC /* Pods-轨迹生活.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = "Pods-轨迹生活";
+			path = "Target Support Files/Pods-轨迹生活";
 			sourceTree = "<group>";
 		};
 		781E118BEB022935395876728D6466F9 /* Products */ = {
@@ -108,51 +60,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		80B92C94EB88AB15D20003945E1F1BBD /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EBA41E386D78C3431D8577ACA964FE1D /* BaiduMapKit.debug.xcconfig */,
-				E50236E9A5434CF5DD81E03E40D77A2B /* BaiduMapKit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/BaiduMapKit";
-			sourceTree = "<group>";
-		};
-		8B9BF28F5A8F0A76BDEE0E6E3836224B /* BaiduMapKit */ = {
-			isa = PBXGroup;
-			children = (
-				4A6F71FC05157FF023D51BA50DFF2954 /* Frameworks */,
-				BF2317299393226289139C8342D30556 /* Resources */,
-				80B92C94EB88AB15D20003945E1F1BBD /* Support Files */,
-			);
-			name = BaiduMapKit;
-			path = BaiduMapKit;
-			sourceTree = "<group>";
-		};
-		99B76B1F0EAAD45D0AC5D35A75E133CC /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8B9BF28F5A8F0A76BDEE0E6E3836224B /* BaiduMapKit */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		BF2317299393226289139C8342D30556 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				C933C71B9A303BED79C07FA9BAE37875 /* mapapi.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				99B76B1F0EAAD45D0AC5D35A75E133CC /* Pods */,
 				781E118BEB022935395876728D6466F9 /* Products */,
-				4909391FDDF8DD2ADFC8133E2D4A54A6 /* Targets Support Files */,
+				22872DEDACA0E29A6E3E2740AEB6AB68 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,7 +80,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		48692170E79A17BF6AE41450F0273996 /* Headers */ = {
+		31707172DD6D9DD8B476BB2F54BF347C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -178,16 +92,15 @@
 /* Begin PBXNativeTarget section */
 		C178CD06A2A78BBF351A9B398E800F92 /* Pods-轨迹生活 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 30A2B5B90858581029A154EF3DB23562 /* Build configuration list for PBXNativeTarget "Pods-轨迹生活" */;
+			buildConfigurationList = CC366760553F48BF34CE64FB5A2CF457 /* Build configuration list for PBXNativeTarget "Pods-轨迹生活" */;
 			buildPhases = (
-				48692170E79A17BF6AE41450F0273996 /* Headers */,
-				80DA3178D0681B0EA38BDF3A7BA40825 /* Sources */,
-				2649956CC5821EBB414F23FF98C24A8D /* Frameworks */,
+				31707172DD6D9DD8B476BB2F54BF347C /* Headers */,
+				7A18A1AA7DC92BB28AE19FE9B5448527 /* Sources */,
+				9762FDA1E553936B1E0647088CAAE7D4 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2411FFBB5BDB2F03ABC40A730B72B4AA /* PBXTargetDependency */,
 			);
 			name = "Pods-轨迹生活";
 			productName = "Pods-轨迹生活";
@@ -204,7 +117,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -216,50 +129,23 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2A98134A70001D88F2E8B45132A3E45D /* BaiduMapKit */,
 				C178CD06A2A78BBF351A9B398E800F92 /* Pods-轨迹生活 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		80DA3178D0681B0EA38BDF3A7BA40825 /* Sources */ = {
+		7A18A1AA7DC92BB28AE19FE9B5448527 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFBE7A5DDCE33892F8B8886F10C2645D /* Pods-轨迹生活-dummy.m in Sources */,
+				AF3543170B8DDB46CA31F49C27931291 /* Pods-轨迹生活-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		2411FFBB5BDB2F03ABC40A730B72B4AA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = BaiduMapKit;
-			target = 2A98134A70001D88F2E8B45132A3E45D /* BaiduMapKit */;
-			targetProxy = C0467A195E29AFAEDFFE7CDE47CF7C03 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		056B167FD85B8577C2EFD851B8AC5437 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E50236E9A5434CF5DD81E03E40D77A2B /* BaiduMapKit.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -320,47 +206,9 @@
 			};
 			name = Release;
 		};
-		2A78981A8A778B451C220614AF25371E /* Debug */ = {
+		71552F025BE169652406CAEF7995CB33 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF97CFF3AE07C24BEFB06BD73D2D5A5F /* Pods-轨迹生活.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		465B732D0A84D2BEBF75CCD2E3B21B06 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EBA41E386D78C3431D8577ACA964FE1D /* BaiduMapKit.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		C999B9E45DE8AA3CACD342CFBCAEBEA7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7ED5C57941EA6B365E2A759FDC95CF3 /* Pods-轨迹生活.release.xcconfig */;
+			baseConfigurationReference = 33468BE4B71B052B4C902ED30C0417EC /* Pods-轨迹生活.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -380,6 +228,28 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		A3D9613AA2674E64D3FC01B76C55C5FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DA8FC4F2E14A87C4B6C02002D677165 /* Pods-轨迹生活.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -448,15 +318,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		30A2B5B90858581029A154EF3DB23562 /* Build configuration list for PBXNativeTarget "Pods-轨迹生活" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2A78981A8A778B451C220614AF25371E /* Debug */,
-				C999B9E45DE8AA3CACD342CFBCAEBEA7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -466,11 +327,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5577AA72BAC6F7DE95AF6FF653D2388C /* Build configuration list for PBXAggregateTarget "BaiduMapKit" */ = {
+		CC366760553F48BF34CE64FB5A2CF457 /* Build configuration list for PBXNativeTarget "Pods-轨迹生活" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				465B732D0A84D2BEBF75CCD2E3B21B06 /* Debug */,
-				056B167FD85B8577C2EFD851B8AC5437 /* Release */,
+				A3D9613AA2674E64D3FC01B76C55C5FB /* Debug */,
+				71552F025BE169652406CAEF7995CB33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
