@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45F9B47F2299C229831B4D9F /* libPods-轨迹生活.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8985DF22E926745CC04F09D8 /* libPods-轨迹生活.a */; };
+		F40174BA23EBF4A000176DA3 /* LPLMeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40174B923EBF4A000176DA3 /* LPLMeTableViewController.swift */; };
+		F40174BC23EBF51200176DA3 /* LPLTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40174BB23EBF51200176DA3 /* LPLTabBarController.swift */; };
+		F40174BE23EBF97B00176DA3 /* LPLTrajectoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40174BD23EBF97B00176DA3 /* LPLTrajectoryTableViewController.swift */; };
+		F40174C023EBFA6800176DA3 /* LPLTrajectoryLoopTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40174BF23EBFA6800176DA3 /* LPLTrajectoryLoopTableViewController.swift */; };
+		F40174C223EC02AF00176DA3 /* LPLStockTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40174C123EC02AF00176DA3 /* LPLStockTableViewController.swift */; };
+		F40174C423EC034400176DA3 /* LPLMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40174C323EC034400176DA3 /* LPLMainViewController.swift */; };
+		F40174C723EC12B100176DA3 /* LPLMeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40174C523EC12B100176DA3 /* LPLMeTableViewCell.swift */; };
+		F40174C823EC12B100176DA3 /* LPLMeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F40174C623EC12B100176DA3 /* LPLMeTableViewCell.xib */; };
+		F4023A9323FA734C00CC1547 /* TrajectoryLoop.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4023A9223FA734C00CC1547 /* TrajectoryLoop.plist */; };
+		F4023A9523FA7BCE00CC1547 /* LoopHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4023A9423FA7BCE00CC1547 /* LoopHeadView.swift */; };
+		F4023A9723FA8C4400CC1547 /* TrajectoryLoopItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4023A9623FA8C4400CC1547 /* TrajectoryLoopItem.swift */; };
+		F4023A9923FA9FA200CC1547 /* TrajectoryLoopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4023A9823FA9FA200CC1547 /* TrajectoryLoopCell.swift */; };
+		F414B4D32402A5A0009E650E /* EditLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F414B4D12402A5A0009E650E /* EditLocationViewController.swift */; };
+		F414B4D42402A5A0009E650E /* EditLocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F414B4D22402A5A0009E650E /* EditLocationViewController.xib */; };
+		F44F250723CC6AF800C5054A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44F250623CC6AF800C5054A /* AppDelegate.swift */; };
+		F44F250923CC6AF800C5054A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44F250823CC6AF800C5054A /* SceneDelegate.swift */; };
+		F44F250B23CC6AF800C5054A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44F250A23CC6AF800C5054A /* ViewController.swift */; };
+		F44F250E23CC6AF800C5054A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44F250C23CC6AF800C5054A /* Main.storyboard */; };
+		F44F251023CC6AFB00C5054A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44F250F23CC6AFB00C5054A /* Assets.xcassets */; };
+		F44F251323CC6AFB00C5054A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44F251123CC6AFB00C5054A /* LaunchScreen.storyboard */; };
+		F453772924246618007BC5C9 /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F453772824246618007BC5C9 /* CustomAnnotation.swift */; };
+		F47B8662240FC48B005E45BC /* StockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47B8661240FC48B005E45BC /* StockTableViewCell.swift */; };
+		F47B8664240FC4A4005E45BC /* Stock.plist in Resources */ = {isa = PBXBuildFile; fileRef = F47B8663240FC4A4005E45BC /* Stock.plist */; };
+		F47B8666240FCDA2005E45BC /* StockItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47B8665240FCDA2005E45BC /* StockItem.swift */; };
+		F4D435B8240B91DF00B4CFB8 /* PageThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D435B7240B91DF00B4CFB8 /* PageThreeViewController.swift */; };
+		F4D435BA240B96D800B4CFB8 /* PageTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D435B9240B96D800B4CFB8 /* PageTwoViewController.swift */; };
+		F4E956AA23F7EA9E008A7E0A /* Mine.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4E956A923F7EA9E008A7E0A /* Mine.plist */; };
+		F4E956AC23F7EB4D008A7E0A /* MineItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E956AB23F7EB4D008A7E0A /* MineItem.swift */; };
+		F4EE870A23F140E600C89EFD /* ImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EE870923F140E600C89EFD /* ImageScrollView.swift */; };
+		F4F6D92523ED70EF00C7A39A /* HeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F6D92423ED70EF00C7A39A /* HeadView.swift */; };
+		F4FE598823F6647D0036A872 /* Location.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4FE598723F6647D0036A872 /* Location.plist */; };
+		F4FE598A23F665460036A872 /* LocationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FE598923F665460036A872 /* LocationItem.swift */; };
+		F4FE598C23F693DF0036A872 /* TrajectoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FE598B23F693DF0036A872 /* TrajectoryCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3AE524F278A8D8DB01D9E18A /* Pods-轨迹生活.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-轨迹生活.release.xcconfig"; path = "Target Support Files/Pods-轨迹生活/Pods-轨迹生活.release.xcconfig"; sourceTree = "<group>"; };
+		8985DF22E926745CC04F09D8 /* libPods-轨迹生活.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-轨迹生活.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40174B923EBF4A000176DA3 /* LPLMeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPLMeTableViewController.swift; sourceTree = "<group>"; };
+		F40174BB23EBF51200176DA3 /* LPLTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPLTabBarController.swift; sourceTree = "<group>"; };
+		F40174BD23EBF97B00176DA3 /* LPLTrajectoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPLTrajectoryTableViewController.swift; sourceTree = "<group>"; };
+		F40174BF23EBFA6800176DA3 /* LPLTrajectoryLoopTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPLTrajectoryLoopTableViewController.swift; sourceTree = "<group>"; };
+		F40174C123EC02AF00176DA3 /* LPLStockTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPLStockTableViewController.swift; sourceTree = "<group>"; };
+		F40174C323EC034400176DA3 /* LPLMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPLMainViewController.swift; sourceTree = "<group>"; };
+		F40174C523EC12B100176DA3 /* LPLMeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPLMeTableViewCell.swift; sourceTree = "<group>"; };
+		F40174C623EC12B100176DA3 /* LPLMeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LPLMeTableViewCell.xib; sourceTree = "<group>"; };
+		F4023A9223FA734C00CC1547 /* TrajectoryLoop.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TrajectoryLoop.plist; sourceTree = "<group>"; };
+		F4023A9423FA7BCE00CC1547 /* LoopHeadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopHeadView.swift; sourceTree = "<group>"; };
+		F4023A9623FA8C4400CC1547 /* TrajectoryLoopItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrajectoryLoopItem.swift; sourceTree = "<group>"; };
+		F4023A9823FA9FA200CC1547 /* TrajectoryLoopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrajectoryLoopCell.swift; sourceTree = "<group>"; };
+		F414B4D12402A5A0009E650E /* EditLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditLocationViewController.swift; sourceTree = "<group>"; };
+		F414B4D22402A5A0009E650E /* EditLocationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditLocationViewController.xib; sourceTree = "<group>"; };
+		F44F250323CC6AF800C5054A /* 轨迹生活.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "轨迹生活.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44F250623CC6AF800C5054A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F44F250823CC6AF800C5054A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F44F250A23CC6AF800C5054A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F44F250D23CC6AF800C5054A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F44F250F23CC6AFB00C5054A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F44F251223CC6AFB00C5054A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F44F251423CC6AFB00C5054A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F453772824246618007BC5C9 /* CustomAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
+		F47B8661240FC48B005E45BC /* StockTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockTableViewCell.swift; sourceTree = "<group>"; };
+		F47B8663240FC4A4005E45BC /* Stock.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Stock.plist; sourceTree = "<group>"; };
+		F47B8665240FCDA2005E45BC /* StockItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockItem.swift; sourceTree = "<group>"; };
+		F4D435B7240B91DF00B4CFB8 /* PageThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageThreeViewController.swift; sourceTree = "<group>"; };
+		F4D435B9240B96D800B4CFB8 /* PageTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTwoViewController.swift; sourceTree = "<group>"; };
+		F4E956A923F7EA9E008A7E0A /* Mine.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Mine.plist; sourceTree = "<group>"; };
+		F4E956AB23F7EB4D008A7E0A /* MineItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineItem.swift; sourceTree = "<group>"; };
+		F4EE870923F140E600C89EFD /* ImageScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollView.swift; sourceTree = "<group>"; };
+		F4F6D92423ED70EF00C7A39A /* HeadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadView.swift; sourceTree = "<group>"; };
+		F4FE598723F6647D0036A872 /* Location.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Location.plist; sourceTree = "<group>"; };
+		F4FE598923F665460036A872 /* LocationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationItem.swift; sourceTree = "<group>"; };
+		F4FE598B23F693DF0036A872 /* TrajectoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrajectoryCell.swift; sourceTree = "<group>"; };
+		FD805FD6123CB0519BDAC71D /* Pods-轨迹生活.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-轨迹生活.debug.xcconfig"; path = "Target Support Files/Pods-轨迹生活/Pods-轨迹生活.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F44F250023CC6AF800C5054A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F9B47F2299C229831B4D9F /* libPods-轨迹生活.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		368414D26A1AAE60ED560540 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8985DF22E926745CC04F09D8 /* libPods-轨迹生活.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEB461CE7D33351F06A31065 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD805FD6123CB0519BDAC71D /* Pods-轨迹生活.debug.xcconfig */,
+				3AE524F278A8D8DB01D9E18A /* Pods-轨迹生活.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F44F24FA23CC6AF800C5054A = {
+			isa = PBXGroup;
+			children = (
+				F44F250523CC6AF800C5054A /* 轨迹生活 */,
+				F44F250423CC6AF800C5054A /* Products */,
+				DEB461CE7D33351F06A31065 /* Pods */,
+				368414D26A1AAE60ED560540 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F44F250423CC6AF800C5054A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F44F250323CC6AF800C5054A /* 轨迹生活.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F44F250523CC6AF800C5054A /* 轨迹生活 */ = {
+			isa = PBXGroup;
+			children = (
+				F489AD6523E7E08900346F56 /* Main */,
+				F489AD5823E7DD7700346F56 /* 存库 */,
+				F489AD5C23E7DD7700346F56 /* 轨迹 */,
+				F489AD5423E7DD7700346F56 /* 轨迹圈 */,
+				F489AD6023E7DD7700346F56 /* 其他 */,
+				F489AD5023E7DD7700346F56 /* 我的 */,
+				F489AD6123E7DD7800346F56 /* 主页 */,
+				F44F250623CC6AF800C5054A /* AppDelegate.swift */,
+				F44F250823CC6AF800C5054A /* SceneDelegate.swift */,
+				F44F250A23CC6AF800C5054A /* ViewController.swift */,
+				F44F250C23CC6AF800C5054A /* Main.storyboard */,
+				F44F250F23CC6AFB00C5054A /* Assets.xcassets */,
+				F44F251123CC6AFB00C5054A /* LaunchScreen.storyboard */,
+				F44F251423CC6AFB00C5054A /* Info.plist */,
+			);
+			path = "轨迹生活";
+			sourceTree = "<group>";
+		};
+		F489AD5023E7DD7700346F56 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				F489AD5123E7DD7700346F56 /* Controller */,
+				F489AD5223E7DD7700346F56 /* Model */,
+				F489AD5323E7DD7700346F56 /* View */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		F489AD5123E7DD7700346F56 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F40174B923EBF4A000176DA3 /* LPLMeTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F489AD5223E7DD7700346F56 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F4E956A923F7EA9E008A7E0A /* Mine.plist */,
+				F4E956AB23F7EB4D008A7E0A /* MineItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F489AD5323E7DD7700346F56 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F40174C523EC12B100176DA3 /* LPLMeTableViewCell.swift */,
+				F40174C623EC12B100176DA3 /* LPLMeTableViewCell.xib */,
+				F4F6D92423ED70EF00C7A39A /* HeadView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F489AD5423E7DD7700346F56 /* 轨迹圈 */ = {
+			isa = PBXGroup;
+			children = (
+				F489AD5523E7DD7700346F56 /* Controller */,
+				F489AD5623E7DD7700346F56 /* Model */,
+				F489AD5723E7DD7700346F56 /* View */,
+			);
+			path = "轨迹圈";
+			sourceTree = "<group>";
+		};
+		F489AD5523E7DD7700346F56 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F40174BF23EBFA6800176DA3 /* LPLTrajectoryLoopTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F489AD5623E7DD7700346F56 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F4023A9223FA734C00CC1547 /* TrajectoryLoop.plist */,
+				F4023A9623FA8C4400CC1547 /* TrajectoryLoopItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F489AD5723E7DD7700346F56 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F4023A9423FA7BCE00CC1547 /* LoopHeadView.swift */,
+				F4023A9823FA9FA200CC1547 /* TrajectoryLoopCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F489AD5823E7DD7700346F56 /* 存库 */ = {
+			isa = PBXGroup;
+			children = (
+				F489AD5923E7DD7700346F56 /* Controller */,
+				F489AD5A23E7DD7700346F56 /* Model */,
+				F489AD5B23E7DD7700346F56 /* View */,
+			);
+			path = "存库";
+			sourceTree = "<group>";
+		};
+		F489AD5923E7DD7700346F56 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F40174C123EC02AF00176DA3 /* LPLStockTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F489AD5A23E7DD7700346F56 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F47B8663240FC4A4005E45BC /* Stock.plist */,
+				F47B8665240FCDA2005E45BC /* StockItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F489AD5B23E7DD7700346F56 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F47B8661240FC48B005E45BC /* StockTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F489AD5C23E7DD7700346F56 /* 轨迹 */ = {
+			isa = PBXGroup;
+			children = (
+				F489AD5D23E7DD7700346F56 /* Controller */,
+				F489AD5E23E7DD7700346F56 /* Model */,
+				F489AD5F23E7DD7700346F56 /* View */,
+			);
+			path = "轨迹";
+			sourceTree = "<group>";
+		};
+		F489AD5D23E7DD7700346F56 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F40174BD23EBF97B00176DA3 /* LPLTrajectoryTableViewController.swift */,
+				F414B4D12402A5A0009E650E /* EditLocationViewController.swift */,
+				F414B4D22402A5A0009E650E /* EditLocationViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F489AD5E23E7DD7700346F56 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F4FE598923F665460036A872 /* LocationItem.swift */,
+				F4FE598723F6647D0036A872 /* Location.plist */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F489AD5F23E7DD7700346F56 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F4FE598B23F693DF0036A872 /* TrajectoryCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F489AD6023E7DD7700346F56 /* 其他 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "其他";
+			sourceTree = "<group>";
+		};
+		F489AD6123E7DD7800346F56 /* 主页 */ = {
+			isa = PBXGroup;
+			children = (
+				F489AD6223E7DD7800346F56 /* Controller */,
+				F489AD6323E7DD7800346F56 /* Model */,
+				F489AD6423E7DD7800346F56 /* View */,
+			);
+			path = "主页";
+			sourceTree = "<group>";
+		};
+		F489AD6223E7DD7800346F56 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F40174C323EC034400176DA3 /* LPLMainViewController.swift */,
+				F4D435B7240B91DF00B4CFB8 /* PageThreeViewController.swift */,
+				F4D435B9240B96D800B4CFB8 /* PageTwoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F489AD6323E7DD7800346F56 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F453772824246618007BC5C9 /* CustomAnnotation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F489AD6423E7DD7800346F56 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F4EE870923F140E600C89EFD /* ImageScrollView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F489AD6523E7E08900346F56 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F40174BB23EBF51200176DA3 /* LPLTabBarController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F44F250223CC6AF800C5054A /* 轨迹生活 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44F251723CC6AFB00C5054A /* Build configuration list for PBXNativeTarget "轨迹生活" */;
+			buildPhases = (
+				0F05A7426DA359ED1CE554B2 /* [CP] Check Pods Manifest.lock */,
+				F44F24FF23CC6AF800C5054A /* Sources */,
+				F44F250023CC6AF800C5054A /* Frameworks */,
+				F44F250123CC6AF800C5054A /* Resources */,
+				6C1D5F8BE82ECD0BC84EA4B7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "轨迹生活";
+			productName = "轨迹生活";
+			productReference = F44F250323CC6AF800C5054A /* 轨迹生活.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F44F24FB23CC6AF800C5054A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = lpl;
+				TargetAttributes = {
+					F44F250223CC6AF800C5054A = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = F44F24FE23CC6AF800C5054A /* Build configuration list for PBXProject "轨迹生活" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F44F24FA23CC6AF800C5054A;
+			productRefGroup = F44F250423CC6AF800C5054A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F44F250223CC6AF800C5054A /* 轨迹生活 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F44F250123CC6AF800C5054A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40174C823EC12B100176DA3 /* LPLMeTableViewCell.xib in Resources */,
+				F44F251323CC6AFB00C5054A /* LaunchScreen.storyboard in Resources */,
+				F4023A9323FA734C00CC1547 /* TrajectoryLoop.plist in Resources */,
+				F44F251023CC6AFB00C5054A /* Assets.xcassets in Resources */,
+				F4FE598823F6647D0036A872 /* Location.plist in Resources */,
+				F47B8664240FC4A4005E45BC /* Stock.plist in Resources */,
+				F414B4D42402A5A0009E650E /* EditLocationViewController.xib in Resources */,
+				F44F250E23CC6AF800C5054A /* Main.storyboard in Resources */,
+				F4E956AA23F7EA9E008A7E0A /* Mine.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F05A7426DA359ED1CE554B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-轨迹生活-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C1D5F8BE82ECD0BC84EA4B7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-轨迹生活/Pods-轨迹生活-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-轨迹生活/Pods-轨迹生活-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-轨迹生活/Pods-轨迹生活-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F44F24FF23CC6AF800C5054A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F47B8662240FC48B005E45BC /* StockTableViewCell.swift in Sources */,
+				F4D435B8240B91DF00B4CFB8 /* PageThreeViewController.swift in Sources */,
+				F4023A9723FA8C4400CC1547 /* TrajectoryLoopItem.swift in Sources */,
+				F40174BC23EBF51200176DA3 /* LPLTabBarController.swift in Sources */,
+				F4F6D92523ED70EF00C7A39A /* HeadView.swift in Sources */,
+				F44F250B23CC6AF800C5054A /* ViewController.swift in Sources */,
+				F4FE598A23F665460036A872 /* LocationItem.swift in Sources */,
+				F4023A9523FA7BCE00CC1547 /* LoopHeadView.swift in Sources */,
+				F4FE598C23F693DF0036A872 /* TrajectoryCell.swift in Sources */,
+				F44F250723CC6AF800C5054A /* AppDelegate.swift in Sources */,
+				F4E956AC23F7EB4D008A7E0A /* MineItem.swift in Sources */,
+				F47B8666240FCDA2005E45BC /* StockItem.swift in Sources */,
+				F40174BA23EBF4A000176DA3 /* LPLMeTableViewController.swift in Sources */,
+				F414B4D32402A5A0009E650E /* EditLocationViewController.swift in Sources */,
+				F40174C423EC034400176DA3 /* LPLMainViewController.swift in Sources */,
+				F40174C023EBFA6800176DA3 /* LPLTrajectoryLoopTableViewController.swift in Sources */,
+				F40174C223EC02AF00176DA3 /* LPLStockTableViewController.swift in Sources */,
+				F40174BE23EBF97B00176DA3 /* LPLTrajectoryTableViewController.swift in Sources */,
+				F4EE870A23F140E600C89EFD /* ImageScrollView.swift in Sources */,
+				F40174C723EC12B100176DA3 /* LPLMeTableViewCell.swift in Sources */,
+				F4023A9923FA9FA200CC1547 /* TrajectoryLoopCell.swift in Sources */,
+				F44F250923CC6AF800C5054A /* SceneDelegate.swift in Sources */,
+				F4D435BA240B96D800B4CFB8 /* PageTwoViewController.swift in Sources */,
+				F453772924246618007BC5C9 /* CustomAnnotation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F44F250C23CC6AF800C5054A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F44F250D23CC6AF800C5054A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F44F251123CC6AFB00C5054A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F44F251223CC6AFB00C5054A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F44F251523CC6AFB00C5054A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F44F251623CC6AFB00C5054A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F44F251823CC6AFB00C5054A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD805FD6123CB0519BDAC71D /* Pods-轨迹生活.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3792VPBNV9;
+				INFOPLIST_FILE = "轨迹生活/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lpl.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F44F251923CC6AFB00C5054A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AE524F278A8D8DB01D9E18A /* Pods-轨迹生活.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3792VPBNV9;
+				INFOPLIST_FILE = "轨迹生活/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lpl.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F44F24FE23CC6AF800C5054A /* Build configuration list for PBXProject "轨迹生活" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44F251523CC6AFB00C5054A /* Debug */,
+				F44F251623CC6AFB00C5054A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44F251723CC6AFB00C5054A /* Build configuration list for PBXNativeTarget "轨迹生活" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44F251823CC6AFB00C5054A /* Debug */,
+				F44F251923CC6AFB00C5054A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F44F24FB23CC6AF800C5054A /* Project object */;
+}
